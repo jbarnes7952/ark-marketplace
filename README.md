@@ -26,7 +26,7 @@ ark's test suite checks that they agree.
 
 | Plugin | Repo | Version | Commit |
 |---|---|---|---|
-| cars | jbarnes7952/cars | 1.18.5 | a2056a9 |
+| cars | jbarnes7952/cars | 1.18.6 | 06ccdae |
 | commlink | jbarnes7952/commlink | 0.4.4 | dc3f466 |
 
 ## Releasing a pin

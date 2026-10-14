@@ -8,12 +8,12 @@
     {
       "name": "cars",
       "description": "Peer Session Ledger (the Ark manifest): register role and capabilities, find who to SendMessage. Ledger MCP server, roster, heartbeat, session-title and tmux hooks, /cars:register and /cars:deregister.",
-      "version": "1.18.5",
+      "version": "1.18.6",
       "source": {
         "source": "github",
         "repo": "jbarnes7952/cars",
-        "ref": "v1.18.5",
-        "sha": "a2056a9b4192234943836e73aaea023ac9587d72"
+        "ref": "v1.18.6",
+        "sha": "06ccdae7e986a9b9aadccae3008d49df083f5d27"
       }
     },
     {
