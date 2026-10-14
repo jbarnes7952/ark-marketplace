@@ -1,0 +1,31 @@
+{
+  "name": "ark-project",
+  "description": "The Ark Project: one install point for the Ark's Claude Code plugins. Each entry points at the component's own repository at a pinned release; nothing is vendored here.",
+  "owner": {
+    "name": "jbarnes"
+  },
+  "plugins": [
+    {
+      "name": "cars",
+      "description": "Peer Session Ledger (the Ark manifest): register role and capabilities, find who to SendMessage. Ledger MCP server, roster, heartbeat, session-title and tmux hooks, /cars:register and /cars:deregister.",
+      "version": "1.18.0",
+      "source": {
+        "source": "github",
+        "repo": "jbarnes7952/cars",
+        "ref": "main",
+        "sha": "89117d63f77c2e13b94df5ac5d1b732674491f2c"
+      }
+    },
+    {
+      "name": "commlink",
+      "description": "commlink (the Ark transport): register, discover and message peers across Claude, Codex and agy. MCP server plus Stop/SessionEnd lifecycle hooks.",
+      "version": "0.4.0",
+      "source": {
+        "source": "github",
+        "repo": "jbarnes7952/commlink",
+        "ref": "v0.4.0",
+        "sha": "064bc817f80374a1f97739309004ad6584095c30"
+      }
+    }
+  ]
+}
