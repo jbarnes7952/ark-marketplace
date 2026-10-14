@@ -28,14 +28,7 @@ ark's test suite checks that they agree.
 | Plugin | Repo | Version | Commit |
 |---|---|---|---|
 | cars | jbarnes7952/cars | 1.18.0 | 89117d6 |
-| commlink | jbarnes7952/commlink | 0.4.0 | 064bc81 |
-
-## Known issues
-
-- `commlink` 0.4.0 only works on the machine it was built on: its plugin
-  manifest and hooks hardcode an absolute path to the `commlink` binary, so on
-  any other machine the MCP server does not start and the hooks do not fire.
-  Fixed in commlink PR #16; this catalog repins when 0.4.1 ships.
+| commlink | jbarnes7952/commlink | 0.4.0 | 63ca909 (main; portable-path fix, 0.4.1 tag to follow) |
 
 ## Releasing a pin
 
