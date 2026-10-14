@@ -2,7 +2,7 @@
   "name": "ark-project",
   "description": "The Ark Project: one install point for the Ark's Claude Code plugins. Each entry points at the component's own repository at a pinned release; nothing is vendored here.",
   "owner": {
-    "name": "jbarnes"
+    "name": "The Ark Project"
   },
   "plugins": [
     {
