@@ -23,8 +23,8 @@
       "source": {
         "source": "github",
         "repo": "jbarnes7952/commlink",
-        "ref": "v0.4.1",
-        "sha": "9d49130021291b5cbd2d6139598bb12ca85defc8"
+        "ref": "main",
+        "sha": "80fc20fbe07791365cd856c48d613c92a9c40b8d"
       }
     }
   ]
