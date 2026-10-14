@@ -30,6 +30,14 @@ ark's test suite checks that they agree.
 | cars | jbarnes7952/cars | 1.18.0 | 89117d6 |
 | commlink | jbarnes7952/commlink | 0.4.1 | 9d49130 |
 
+## Known issues
+
+- `commlink` 0.4.1 looks for the cars ledger only under the plugin key
+  `cars@cars`, so with cars installed from this catalog (`cars@ark-project`)
+  its ledger calls fail and `commlink doctor` reports the ledger script not
+  found. Workaround until the fix ships: point `COMMLINK_LEDGER_SCRIPT` at the
+  installed `ledger_mcp.py` under `~/.claude/plugins/cache/ark-project/cars/<version>/`.
+
 ## Releasing a pin
 
 1. The component maintainer merges and (where the repo tags) tags the release.
