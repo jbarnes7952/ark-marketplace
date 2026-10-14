@@ -20,14 +20,13 @@ runs in place from the checkout.
 
 ## Pins
 
-Each entry carries `version`, `ref` (a release tag where the repo tags
-releases, otherwise `main`) and the full commit `sha`; the sha is what is
+Each entry carries `version`, `ref` (the release tag) and the full commit `sha`; the sha is what is
 checked out. The pins mirror `fleet.json` in the `ark` contracts repo, and
 ark's test suite checks that they agree.
 
 | Plugin | Repo | Version | Commit |
 |---|---|---|---|
-| cars | jbarnes7952/cars | 1.18.0 | 89117d6 |
+| cars | jbarnes7952/cars | 1.18.1 | a90cb80 |
 | commlink | jbarnes7952/commlink | 0.4.3 | 68246c2 |
 
 ## Releasing a pin
