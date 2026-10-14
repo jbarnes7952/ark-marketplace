@@ -30,6 +30,13 @@ ark's test suite checks that they agree.
 | cars | jbarnes7952/cars | 1.18.0 | 89117d6 |
 | commlink | jbarnes7952/commlink | 0.4.0 | 064bc81 |
 
+## Known issues
+
+- `commlink` 0.4.0 only works where the binary is at
+  `/home/jbarnes/.local/bin/commlink`: its plugin manifest and hooks hardcode
+  that path, so on another machine the MCP server does not start and the hooks
+  do not fire. Fixed in commlink PR #16; this catalog repins when 0.4.1 ships.
+
 ## Releasing a pin
 
 1. The component maintainer merges and (where the repo tags) tags the release.
