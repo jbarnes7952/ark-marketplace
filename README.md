@@ -28,7 +28,7 @@ ark's test suite checks that they agree.
 | Plugin | Repo | Version | Commit |
 |---|---|---|---|
 | cars | jbarnes7952/cars | 1.18.0 | 89117d6 |
-| commlink | jbarnes7952/commlink | 0.4.1 | 80fc20f (main; finds cars from any marketplace, 0.4.2 tag to follow) |
+| commlink | jbarnes7952/commlink | 0.4.2 | bafea36 |
 
 ## Releasing a pin
 
