@@ -32,10 +32,10 @@ ark's test suite checks that they agree.
 
 ## Known issues
 
-- `commlink` 0.4.0 only works where the binary is at
-  `/home/jbarnes/.local/bin/commlink`: its plugin manifest and hooks hardcode
-  that path, so on another machine the MCP server does not start and the hooks
-  do not fire. Fixed in commlink PR #16; this catalog repins when 0.4.1 ships.
+- `commlink` 0.4.0 only works on the machine it was built on: its plugin
+  manifest and hooks hardcode an absolute path to the `commlink` binary, so on
+  any other machine the MCP server does not start and the hooks do not fire.
+  Fixed in commlink PR #16; this catalog repins when 0.4.1 ships.
 
 ## Releasing a pin
 
