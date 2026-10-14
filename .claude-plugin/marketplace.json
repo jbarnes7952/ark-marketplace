@@ -19,12 +19,12 @@
     {
       "name": "commlink",
       "description": "commlink (the Ark transport): register, discover and message peers across Claude, Codex and agy. MCP server plus Stop/SessionEnd lifecycle hooks.",
-      "version": "0.4.3",
+      "version": "0.4.4",
       "source": {
         "source": "github",
         "repo": "jbarnes7952/commlink",
-        "ref": "v0.4.3",
-        "sha": "68246c26cb89d77288cd178afeec17254f1353d0"
+        "ref": "v0.4.4",
+        "sha": "dc3f4668b81f2dcfbd204db64dfa34654b29d981"
       }
     }
   ]
